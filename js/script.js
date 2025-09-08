@@ -451,7 +451,7 @@ function addCommasToNumber(number) {
 function init() {
     switch (global.currentPage) {
         case '/':
-        case '/flixx-app/':
+        case '/flixx-app':
         case '/index.html':
             displaySlider();
             displayPopularMovies();
